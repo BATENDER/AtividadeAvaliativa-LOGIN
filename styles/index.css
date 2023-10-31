@@ -1,3 +1,44 @@
 #inscrever {
+    width: 100%;
+    padding: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #ADB5BD;
+}
+
+#inscrever h2 {
+    font-size: 24pt;
+}
+
+#inscrever h3 a{
+    font-size: 18pt;
+    color: #ADB5BD;
+}
+
+#inscrever h3 a:hover, #inscrever h3:hover {
+    color: whitesmoke;
+    text-shadow: 0 0 3px whitesmoke;
+    transform: scale(1.2);
+}
+
+#entrar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#entrar, #entrar a {
+    color: #ADB5BD;
+    text-decoration: none;
+}
+
+#entrar a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+    text-shadow: 0 0 3px whitesmoke;
+    transform: scale(1.2);
 }

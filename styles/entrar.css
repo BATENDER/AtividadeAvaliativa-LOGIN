@@ -1,0 +1,84 @@
+#entrarBtn {
+    color: whitesmoke;
+}
+
+form, #voltaBtn {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#voltaBtn a {
+    text-decoration: none;
+}
+
+#voltaBtn button {
+    background-color: transparent;
+    border: none;
+}
+
+#voltaBtn button:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 2px whitesmoke);
+}
+
+.tituloLogin {
+    font-family: 'Brygada 1918';
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+form label, .tituloLogin {
+    color: #ADB5BD;
+}
+
+.inputLogin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLogin label {
+    font-size: 13pt;
+}
+
+.inputLogin input {
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 0 0 5px 0;
+    background-color: none;
+    border-bottom: 1px solid #ADB5BD;
+    background-color: transparent;
+    color: #ADB5BD;
+}
+
+.inputLogin input::placeholder {
+    font-size: 12pt;
+    color: #6C757D;
+}
+
+.inputLogin input:focus {
+    outline: none;
+    color: whitesmoke;
+    font-weight: bold;
+    caret-color: #ADB5BD;
+}
+
+#enviarBtn button {
+    
+}

@@ -9,6 +9,7 @@
 #pagina {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 header {
@@ -56,15 +57,23 @@ nav a:hover {
 
 #acessoBtn {
     display: flex;
+    padding: 0 10px;
     align-items: center;
     justify-content: end;
     gap: 20px;
 }
 
+#acessoBtn a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
 #acessoBtn button {
     width: 100px;
     height: 50%;
-    color: #ADB5BD;
     background-color: transparent;
 }
 
@@ -76,8 +85,13 @@ nav a:hover {
 }
 
 #inscreverBtn {
+    color: #ADB5BD;
     border: 2px solid #495057;
     border-radius: 10px;
+}
+
+#inscreverBtn:hover {
+    transform: scale(1.1);
 }
 
 #entrarBtn {
@@ -86,12 +100,12 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: end;
+    color: transparent;
 }
 
 .tracoVert {
-    height: 60%;
-    border: 2px solid #ADB5BD;
-    border-radius: 50%;
+    height: 40%;
+    border: 1px solid #ADB5BD;
 }
 
 main {
@@ -105,13 +119,32 @@ main {
 }
 
 #conteudo {
-    width: 40%;
-    padding: 20px;
+    width: 30%;
+    padding: 40px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    gap: 20px;
+    gap: 60px;
     background-color: #343A40;
+}
+
+#divisao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: #ADB5BD;
+}
+
+.tracoHor {
+    width: 40%;
+    height: 0;
+    border: 2px solid #495057;
+}
+
+nav, #acessoBtn, #conteudo h1, #conteudo h3, #conteudo h2 {
+    font-family: 'Brygada 1918';
 }
