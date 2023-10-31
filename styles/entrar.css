@@ -79,6 +79,23 @@ form label, .tituloLogin {
     caret-color: #ADB5BD;
 }
 
+#enviarBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 #enviarBtn button {
-    
+    width: 50%;
+    height: 60px;
+    font-size: 20pt;
+    border: none;
+    border-radius: 20px;
+    color: #ADB5BD;
+    background-color: #6C757D;
+}
+
+#enviarBtn button:hover {
+    cursor: pointer;
+    box-shadow: inset -2px -2px 3px rgb(0, 0, 0, .8);
 }
