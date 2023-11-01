@@ -1,0 +1,57 @@
+#inputInscricao {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.descricao {
+    width: 48%;
+}
+
+.descricao input {
+    width: 100%;
+}
+
+#confirmacao {
+    width: 100%;
+    display: flex;
+}
+
+#confirmacao input {
+    width: 50px;
+}
+
+#confirmacao input:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#confirmacao h3 {
+    color: #ADB5BD;
+}
+
+#acessoLogin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    color: #ADB5BD;
+}
+
+#acessoLogin button {
+    width: 50%;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: none;
+    background-color: #6C757D;
+    color: #ADB5BD;
+}
+
+#acessoLogin button:hover {
+    cursor: pointer;
+    color: #343A40;
+    box-shadow: inset 4px 4px 3px rgb(0, 0, 0, .8);
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/geral.css">
+        <link rel="stylesheet" href="../styles/inscrever.css">
+        <link rel="stylesheet" href="../styles/entrar.css">
+        <link rel="shortcut icon" href="../imgs/myst_logo.svg" type="image/x-icon">
+        <title>Myst - Inscrição</title>
+    </head>
+
+    <body>
+        <div id="pagina">
+            <header>
+                <div id="logo">
+                    <h1>M y s t</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">Loja</a>
+                        </li>
+                        <li>
+                            <a href="">Conheça nosso trabalho</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="acessoBtn">
+                    <a href="#">
+                        <button type="button" id="entrarBtn">Entrar</button>
+                    </a>
+                    <div class="tracoVert"></div>
+                    <a href="inscrever.html">
+                        <button type="button" id="inscreverBtn">Inscreva-se</button>
+                    </a>
+                </div>
+            </header>
+
+            <main>
+                <div id="conteudo">
+                    <div id="inscricaoPagina">
+                        <form action="" method="post">
+                            <div id="voltaBtn">
+                                <a href="../index.html">
+                                    <button type="button">
+                                        <img src="../imgs/seta_voltar.svg" alt="voltar pagina de chegada">
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="tituloAcesso">
+                                <h1>Junte-se ao espaço onde mistérios são revelados <br> ...</h1>
+                            </div>
+                            <div class="inputs">
+                                <div class="input" id="inputInscricao">
+                                    <div class="descricao">
+                                        <label for="nomeInscricao">Nome</label>
+                                        <input required placeholder="Digite aqui" type="text" id="nomeInscricao">
+                                    </div>
+                                    <div class="descricao">
+                                        <label for="codinomeInscricao">Codinome</label>
+                                        <input required placeholder="Digite aqui" type="text" id="codinomeInscricao">
+                                    </div>
+                                </div>
+                                <div class="input">
+                                    <label for="emailInscricao">Email</label>
+                                    <input required placeholder="Digite aqui" type="text" id="emailInscricao">
+                                </div>
+                                <div class="input">
+                                    <label for="senhaInscricao">Senha</label>
+                                    <input required placeholder="Digite Aqui" type="password" id="senhaInscricao">
+                                </div>
+                                <div class="input">
+                                    <label for="repetirSenhaInscricao">Repita sua Senha</label>
+                                    <input required placeholder="Digite Aqui" type="password" id="repetirSenhaInscricao">
+                                </div>
+                            </div>
+                            <div id="confirmacao">
+                                <input required type="checkbox">
+                                <h3>Não sou uma marionete</h3>
+                            </div>
+                            <div id="enviarBtn">
+                                <button type="submit">Inscrever-se</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="divisao">
+                        <div class="tracoHor"></div>
+                        <h2>ou</h2>
+                        <div class="tracoHor"></div>
+                    </div>
+                    <div id="acessoLogin">
+                        <h1>Já faço parte da comunidade</h1>
+                        <a href="entrar.html">
+                            <button type="button">entrar</button>
+                        </a>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
