@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../styles/geral.css">
         <link rel="stylesheet" href="../styles/esqueciSenha.css">
         <link rel="stylesheet" href="../styles/entrar.css">
+        <link rel="stylesheet" href="../styles/retrato.css" media="screen and (max-width: 1325px)">
         <link rel="shortcut icon" href="../imgs/myst_logo.svg" type="image/x-icon">
         <title>Myst - Recuperar Senha</title>
     </head>
@@ -17,7 +18,7 @@
                 <div id="conteudo">
                     <form action="" method="post">
                         <div id="voltaBtn">
-                            <a href="../index.html">
+                            <a href="entrar.html">
                                 <button type="button">
                                     <img src="../imgs/seta_voltar.svg" alt="voltar pagina de chegada">
                                 </button>
@@ -28,8 +29,13 @@
                         </div>
                         <div id="recuperarSenha">
                             <fieldset>
-                                <legend>Digite seu email</legend>
-                                <input type="text" name="" id="inputEmail">
+                                <legend>Digite aqui</legend>
+                                <input placeholder="Digite se email" type="text" name="" id="inputEmail">
+                                <div class="btn">
+                                    <a href="#">
+                                        <button type="button" class="enviar">ENVIAR</button>
+                                    </a>
+                                </div>
                             </fieldset>
                         </div>
                     </form>

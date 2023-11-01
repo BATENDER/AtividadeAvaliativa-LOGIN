@@ -1,0 +1,59 @@
+#logo, #acessoBtn, #opcoesMobile {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#entrarBtn {
+    color: whitesmoke;
+}
+
+#opcoesPc {
+    display: none;
+}
+
+#menuMobile {
+    width: 100%;
+    padding: 20px 0;
+    display: none;
+    background-color: #343A40;
+}
+
+#menuMobile ul, #menuMobile ul li {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#menuMobile ul li a {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #ADB5BD;
+    transition: .5s;
+}
+
+#menuMobile ul li a:hover {
+    color: whitesmoke;
+    background-color: #777d83;
+}
+
+#opcoesMobile {
+    height: 100%;
+    width: 20%;
+}
+
+#opcoesMobile:hover {
+    filter: drop-shadow(0 0 3px whitesmoke);
+    cursor: pointer;
+}
+
+#conteudo {
+    width: 80%;
+}

@@ -10,18 +10,21 @@
     width: 100%;
 }
 
-header {
+header, #mobile {
     width: 100%;
-    height: 60px;
     display: flex;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     color: whitesmoke;
     background-color: #343A40;
 }
 
-#logo, #acessoBtn, nav {
+header {
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#logo, #acessoBtn, #opcoesPc {
     width: 30%;
     height: 100%;
 }
@@ -32,7 +35,7 @@ header {
     line-height: 60px;
 }
 
-nav ul{
+#opcoesPc ul{
     width: 100%;
     height: 100%;
     display: flex;
@@ -42,13 +45,13 @@ nav ul{
     gap: 40px;
 }
 
-nav ul li, nav a{
+#opcoesPc ul li, #opcoesPc a{
     list-style: none;
     text-decoration: none;
     color: #ADB5BD;
 }
 
-nav a:hover {
+#opcoesPc a:hover {
     text-decoration: overline;
     color: whitesmoke;
 }
@@ -70,7 +73,6 @@ nav a:hover {
 }
 
 #acessoBtn button {
-    width: 100px;
     height: 50%;
     background-color: transparent;
 }
@@ -83,6 +85,7 @@ nav a:hover {
 }
 
 #inscreverBtn {
+    width: 100px;
     color: #ADB5BD;
     border: 2px solid #495057;
     border-radius: 10px;
@@ -93,17 +96,26 @@ nav a:hover {
 }
 
 #entrarBtn {
+    width: 60px;
     border: none;
     font-size: 12pt;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     color: transparent;
 }
 
 .tracoVert {
     height: 40%;
     border: 1px solid #ADB5BD;
+}
+
+#opcoesMobile {
+    display: none;
+}
+
+#menuMobile {
+    display: none;
 }
 
 main {

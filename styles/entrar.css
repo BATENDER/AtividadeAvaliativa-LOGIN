@@ -67,12 +67,12 @@ form label, .tituloAcesso {
     color: #ADB5BD;
 }
 
-.input input::placeholder {
+.input input::placeholder, #inputEmail::placeholder {
     font-size: 12pt;
     color: #6C757D;
 }
 
-.input input:focus {
+.input input:focus, #inputEmail:focus {
     outline: none;
     color: whitesmoke;
     font-weight: bold;
@@ -101,7 +101,7 @@ form label, .tituloAcesso {
     background-color: #6C757D;
 }
 
-#enviarBtn button:hover {
+#enviarBtn button:hover, .enviar:hover {
     cursor: pointer;
     color: #343A40;
     box-shadow: inset 4px 4px 3px rgb(0, 0, 0, .8);

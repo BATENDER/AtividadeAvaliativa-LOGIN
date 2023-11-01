@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/geral.css">
         <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/retrato.css" media="screen and (max-width: 906px)">
         <link rel="shortcut icon" href="imgs/myst_logo.svg" type="image/x-icon">
         <title>Myst - Aterrissagem</title>
     </head>
@@ -17,7 +18,7 @@
                 <div id="logo">
                     <h1>M y s t</h1>
                 </div>
-                <nav>
+                <nav id="opcoesPc">
                     <ul>
                         <li>
                             <a href="">Home</a>
@@ -39,7 +40,25 @@
                         <button type="button" id="inscreverBtn">Inscreva-se</button>
                     </a>
                 </div>
+
+                <div id="opcoesMobile" onclick="abrirMenu()">
+                    <img src="imgs/menu_open_FILL0_wght400_GRAD0_opsz24.svg" alt="imagem de menu">
+                </div>
             </header>
+
+            <nav id="menuMobile">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Loja</a>
+                    </li>
+                    <li>
+                        <a href="">Conheça nosso trabalho</a>
+                    </li>
+                </ul>
+            </nav>
 
             <main>
                 <div id="conteudo">
@@ -62,5 +81,16 @@
                 </div>
             </main>
         </div>
+
+        <script>
+            function abrirMenu() {
+                if (menuMobile.style.display == 'none') {
+                    menuMobile.style.display = 'flex'
+                } else {
+                    menuMobile.style.display = 'none'
+                }
+            }
+        </script>
+
     </body>
 </html>
