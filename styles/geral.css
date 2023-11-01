@@ -7,9 +7,7 @@
 }
 
 #pagina {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    width: 100%;
 }
 
 header {
@@ -119,7 +117,8 @@ main {
 }
 
 #conteudo {
-    width: 30%;
+    width: 40%;
+    margin: 50px 0;
     padding: 40px;
     border-radius: 20px;
     display: flex;
@@ -140,7 +139,7 @@ main {
 }
 
 .tracoHor {
-    width: 40%;
+    width: 35%;
     height: 0;
     border: 2px solid #495057;
 }
