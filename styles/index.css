@@ -1,5 +1,22 @@
+@media screen and (max-height:600px) {
+    header {
+        top: 0;
+        position: absolute;
+    }
+    #conteudo {
+        gap: 20px;
+    }
+    main {
+        padding-top: 60px;
+    }
+}
+
 #pagina {
     height: 100vh;
+}
+
+body {
+    background-color: aqua;
 }
 
 #inscrever {
@@ -27,6 +44,10 @@
     color: whitesmoke;
     text-shadow: 0 0 3px whitesmoke;
     transform: scale(1.2);
+}
+
+#divisao h2 {
+    font-size: 14pt;
 }
 
 #entrar {
